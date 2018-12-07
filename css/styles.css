@@ -23,12 +23,12 @@ body {
   margin-top: 2em;
 }
 
-/*.buttondiv {
+.buttondiv {
   display: flex;
   justify-content: center;
 }
 
-.button {
+/*.button {
   font-family: Reenie Beanie;
   font-size: 4em;
   border: none;
