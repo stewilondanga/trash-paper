@@ -28,7 +28,7 @@ body {
   justify-content: center;
 }
 
-/*.button {
+.button {
   font-family: Reenie Beanie;
   font-size: 4em;
   border: none;
@@ -39,7 +39,7 @@ body {
   opacity: 0.8;
 }
 
-.button:hover {
+/*.button:hover {
   opacity: 1;
 }
 
