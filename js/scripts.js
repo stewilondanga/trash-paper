@@ -7,7 +7,7 @@ var navigate = (function() {
   });
 })();
 
-/*const passwordStrength = function() {
+const passwordStrength = function() {
   let userInput = document.getElementById("password");
   let messageField = document.getElementById("cross");
   messageField.style.visibility = "visible";
@@ -20,7 +20,7 @@ var navigate = (function() {
   }
 };
 
-$("button").click(function() {
+/*$("button").click(function() {
   $(".wrapper").fadeOut("slow");
   $(".button").fadeOut("fast");
 });
