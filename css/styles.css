@@ -71,7 +71,7 @@ body {
   flex-direction: column;
 }
 
-/*.leftColumn {
+.leftColumn {
   justify-content: space-between;
   color: #566370;
   font-family: Reenie Beanie, sans-serif;
@@ -79,7 +79,7 @@ body {
   letter-spacing: -3px;
 }
 
-label {
+/*label {
   margin: 20px 15px 15px 15px;
   font-size: 0.8em !important;
   text-align: right;
