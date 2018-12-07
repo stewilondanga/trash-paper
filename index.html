@@ -22,7 +22,31 @@
         </a>
     </div>
 
-
+    <div class='wrapper'>
+        <div class="leftColumn">
+          <label>name</label>
+          <label>email</label>
+          <label>password</label>
+        </div>
+        <div class="rightColumn">
+          <div class="input-group">
+            <input class='input' type='text' spellcheck="false" maxlength='19'></input>
+            <div class='line'></div>
+          </div>
+          <div class="input-group">
+            <input class='input' type='email' spellcheck="false" maxlength='19'></input>
+            <div class='line'></div>
+          </div>
+          <div class="input-group">
+            <input class='input' type='password' id='password' onkeyup="passwordStrength()" spellcheck="false" autocomplete="off" maxlength='12'></input>
+            <div class='line'></div>
+          </div>
+          <div class='errorwrap'>
+            <div class='cross' id='cross'></div>
+          </div>
+        </div>
+      </div>
+      <div class='buttondiv'><button class='button' id='button' onclick="alldone()">submit</button></div>
 
   <section id="contact">
     <div class="overlay">
