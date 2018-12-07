@@ -65,13 +65,13 @@ body {
   z-index: 1;
 }
 
-/*.leftColumn,
+.leftColumn,
 .rightColumn {
   display: flex;
   flex-direction: column;
 }
 
-.leftColumn {
+/*.leftColumn {
   justify-content: space-between;
   color: #566370;
   font-family: Reenie Beanie, sans-serif;
