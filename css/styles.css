@@ -79,14 +79,14 @@ body {
   letter-spacing: -3px;
 }
 
-/*label {
+label {
   margin: 20px 15px 15px 15px;
   font-size: 0.8em !important;
   text-align: right;
   padding: 0;
 }
 
-textarea:focus,
+/*textarea:focus,
 input:focus,
 button:focus {
   outline: none;
