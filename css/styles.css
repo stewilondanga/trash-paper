@@ -101,7 +101,7 @@ input:invalid {
   justify-content: flex-end;
 }
 
-/*.cross {
+.cross {
   font-family: Gaegu;
   font-size: 7em;
   width: 40px;
@@ -112,7 +112,7 @@ input:invalid {
   visibility: hidden;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
