@@ -43,7 +43,7 @@ body {
   opacity: 1;
 }
 
-/*.input {
+.input {
   font-family: Reenie Beanie, sans-serif;
   font-size: 4.5em;
   border: none;
@@ -57,7 +57,7 @@ body {
   color: #00050f;
 }
 
-.line {
+/*.line {
   border: 2px solid slategrey;
   width: 500px;
   margin: 77px 10px 10px 10px;
