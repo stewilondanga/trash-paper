@@ -57,7 +57,7 @@ body {
   color: #00050f;
 }
 
-/*.line {
+.line {
   border: 2px solid slategrey;
   width: 500px;
   margin: 77px 10px 10px 10px;
@@ -65,7 +65,7 @@ body {
   z-index: 1;
 }
 
-.leftColumn,
+/*.leftColumn,
 .rightColumn {
   display: flex;
   flex-direction: column;
