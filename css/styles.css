@@ -96,12 +96,12 @@ input:invalid {
   box-shadow: none !important;
 }
 
-/*.errorwrap {
+.errorwrap {
   display: flex;
   justify-content: flex-end;
 }
 
-.cross {
+/*.cross {
   font-family: Gaegu;
   font-size: 7em;
   width: 40px;
