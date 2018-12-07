@@ -20,7 +20,7 @@ const passwordStrength = function() {
   }
 };
 
-/*$("button").click(function() {
+$("button").click(function() {
   $(".wrapper").fadeOut("slow");
   $(".button").fadeOut("fast");
 });
