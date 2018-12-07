@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,105 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+body {
+  background-image: url("http://bgfons.com/uploads/paper/paper_texture278.jpg");
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.buttondiv {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  font-family: Reenie Beanie;
+  font-size: 4em;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transform: rotate(-8deg);
+  color: darkslategray;
+  opacity: 0.8;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+.input {
+  font-family: Reenie Beanie, sans-serif;
+  font-size: 4.5em;
+  border: none;
+  padding: 0;
+  margin: 10px;
+  position: relative;
+  z-index: 2;
+  opacity: 0.7;
+  width: 100%;
+  background-color: transparent;
+  color: #00050f;
+}
+
+.line {
+  border: 2px solid slategrey;
+  width: 500px;
+  margin: 77px 10px 10px 10px;
+  position: absolute;
+  z-index: 1;
+}
+
+.leftColumn,
+.rightColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.leftColumn {
+  justify-content: space-between;
+  color: #566370;
+  font-family: Reenie Beanie, sans-serif;
+  font-size: 4.5em;
+  letter-spacing: -3px;
+}
+
+label {
+  margin: 20px 15px 15px 15px;
+  font-size: 0.8em !important;
+  text-align: right;
+  padding: 0;
+}
+
+textarea:focus,
+input:focus,
+button:focus {
+  outline: none;
+}
+
+input:invalid {
+  box-shadow: none !important;
+}
+
+.errorwrap {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cross {
+  font-family: Gaegu;
+  font-size: 7em;
+  width: 40px;
+  position: absolute;
+  z-index: 9;
+  margin-top: -120px;
+  padding-right: 110px;
+  visibility: hidden;
 }
 
 .containers {
